@@ -11,7 +11,7 @@ const client = new Discord.Client();
 ////////////////////////////////
  
 client.on('ready', () => {
-client.channels.get("500977914133610497").join();
+client.channels.get("506480414861557770").join();
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setStatus("dnd")
 });
