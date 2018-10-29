@@ -20,7 +20,7 @@ client.channels.get("506480414861557770").join();
  
 });
  
-const prefix = "!!"
+const prefix = "r"
 client.on('message', async msg => { 
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
