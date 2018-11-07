@@ -16,7 +16,7 @@ client.channels.get("506480414861557770").join();
     client.user.setStatus("dnd")
 });
   client.on('ready', () => {
-     client.user.setActivity("Music Elite Skill",{type: 'LISTENING'});
+     client.user.setActivity("Music Elite Skill \"r\"",{type: 'LISTENING'});
  
 });
  
@@ -205,7 +205,7 @@ function play(guild, song) {
 
 client.on('message', msg => {
 
-    if (msg.content == '!!EventS') {
+    if (msg.content == 'eReeebel') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -217,7 +217,7 @@ client.on('message', msg => {
 
 client.on('message', async message => {
             if(!message.channel.guild) return;
-             if (message.content.startsWith("!!setstatus")) {
+             if (message.content.startsWith("rsetstatus")) {
 let args = message.content.split(' ').slice(1).join(' ');
             let sigMessage = await args;
             
