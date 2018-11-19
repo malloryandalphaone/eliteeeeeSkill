@@ -11,12 +11,10 @@ const client = new Discord.Client();
 ////////////////////////////////
  
 client.on('ready', () => {
-client.channels.get("506480414861557770").join();
+client.channels.get("514076661470461952").join();
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setStatus("dnd")
-});
-  client.on('ready', () => {
-     client.user.setActivity("Music Elite Skill \"r\"",{type: 'LISTENING'});
+     client.user.setActivity("Music Elite Skill"",{type: 'LISTENING'});
  
 });
  
